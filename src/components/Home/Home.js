@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleCourse from '../SingleCourse/SingleCourse';
 import Banner from '../Banner/Banner';
+import Details from '../Details/Details';
 import './Home.css';
 
 
@@ -14,6 +15,7 @@ const Home = () => {
     return (
       <div className=" ">
         <Banner/>
+        <Details/>
         <h1 className="text-center my-5 fw-bold">Our Top Selling Courses</h1>
         
             <div className=" px-5 home-course-container mb-5">

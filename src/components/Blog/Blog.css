@@ -1,4 +1,5 @@
-.detail-container{
+.blog-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    height: 450px;
 }

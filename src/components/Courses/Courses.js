@@ -11,7 +11,7 @@ const Courses = () => {
     }, [])
     return (
         <div className=" my-5 py-5 ">
-            <h1 className="text-center fw-bold">Our Available Courses</h1>
+            <h1 className="text-center fw-bold">Most Popular Courses</h1>
             <p className="w-50 mx-auto text-center mt-3 fs-5">Here are the list of some courses that we provide in our website. You can learn and understand the very concepts easily from our courses and we also try to provide 24hr support to our student. Learn and explore yur desired course with us.</p>
             <div className=" p-5 my-3 course-container">
                 {/* display all the courses on the course webpage */}

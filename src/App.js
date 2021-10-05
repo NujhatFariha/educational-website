@@ -3,9 +3,10 @@ import './App.css';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Courses from './components/Courses/Courses';
-import SingleCourse from "./components/SingleCourse/SingleCourse";
+import SingleCourse from './components/SingleCourse/SingleCourse';
 import NotFound from './components/NotFound/NotFound';
-import About from "./components/About/About";
+import About from './components/About/About';
+import Blog from './components/Blog/Blog';
 import Footer from "./components/Footer/Footer";
 
 
@@ -29,6 +30,9 @@ function App() {
                 </Route>
         <Route exact path="/about">
                 <About/>
+                </Route>
+        <Route exact path="/blog">
+                <Blog />
                 </Route>
         <Route path="*">
         <NotFound />
