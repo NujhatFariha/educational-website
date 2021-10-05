@@ -1,0 +1,31 @@
+.course-information-container{
+    text-align: center;
+    background-color: rgb(221, 212, 240);
+    color: black;
+    border-radius: 5px;
+}
+
+.btn-style-1{
+    width: 90px;
+    border: none;
+    padding: 5px 5px;
+    background-color: rgb(114, 30, 114);
+    border-radius: 5px;
+    color: white;
+    font-size: 20;
+    font-weight: 600;
+}
+.btn-style-2{
+    width: 90px;
+    border: none;
+    padding: 5px 5px;
+    background-color: rgb(175, 87, 53);
+    border-radius: 5px;
+    color: white;
+    font-size: 20;
+    font-weight: 600;
+}
+
+
+    
+    

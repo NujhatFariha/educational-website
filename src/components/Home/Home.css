@@ -1,0 +1,29 @@
+.home-course-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    border-radius: 10px;
+}
+.banner {
+    /* background-image: url("http://www.lumec.co.za/wp-content/uploads/2019/12/Inno.jpg"); */
+    height: 580px;
+    width: 100%;
+    background-blend-mode: overlay;
+    /* filter: blur(6px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 58px;
+  }
+  .banner-font{
+      font-size: 80px;
+      font-weight: bolder;
+      color: black;
+  }
+  .specific-design{
+      font-size: 70;
+      font-weight: bolder;
+      color: blueviolet;
+      
+  }

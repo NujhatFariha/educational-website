@@ -1,0 +1,27 @@
+.about {
+    background-image: url("https://t3.ftcdn.net/jpg/02/39/39/92/240_F_239399223_tthRTvt26El5ccmyQIck9ySsHKgX5YBo.jpg");
+    height: 500px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+  }
+
+  .header-font{
+      font-size: 55px;
+      margin-top: 100px;
+      font-weight: bolder;
+  }
+
+ .learn-more-btn{
+     width: 130px;
+     border: none;
+     border-radius: 5px;
+     background-color: rgb(255, 213, 213);
+     padding: 5px 5px;
+     color: black;
+     font-weight: 600;
+     font-size: 18px;
+ }
